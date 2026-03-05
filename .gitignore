@@ -1,0 +1,30 @@
+# Зависимости - ЭТО САМОЕ ВАЖНОЕ!
+node_modules/
+
+# Файлы окружения (с секретами!)
+.env
+.env.local
+.env.production
+
+# Логи и временные файлы
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+*.tmp
+*.temp
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+
+# Файлы блокировки (можно не коммитить)
+package-lock.json
+yarn.lock
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
